@@ -21,7 +21,7 @@ public class Exercise2Inspect {
 		//Get the first 3 letters as a key
 		return "Your country scored: ".concat(map.get(s.substring(0, 2)).trim().concat("!!!"));
 		} catch (NullPointerException e) {
-			//Newer java versions have to good error messages for this example to work
+			//Newer java versions have too good error messages for this example to work
 			throw new NullPointerException("null");
 		}
 	}
