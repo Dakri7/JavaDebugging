@@ -15,7 +15,7 @@ public class BonusExerciseVolatileTest {
 private BonusExerciseVolatile ex;
 	
 	@BeforeEach
-	private void beforeAll() {
+	void beforeEach() {
 		ex = new BonusExerciseVolatile();
 	}
 

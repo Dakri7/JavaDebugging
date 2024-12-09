@@ -15,7 +15,7 @@ class Exercise2Test {
 	private Exercise2Inspect ex;
 
 	@BeforeEach
-	void setUp() throws Exception {
+	void beforeEach() throws Exception {
 		ex = new Exercise2Inspect();
 	}
 

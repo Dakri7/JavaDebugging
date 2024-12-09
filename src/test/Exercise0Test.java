@@ -15,7 +15,7 @@ class Exercise0Test {
 	private Exercise0Sysout ex;
 	
 	@BeforeEach
-	private void beforeAll() {
+	void beforeEach() {
 		ex = new Exercise0Sysout();
 	}
 

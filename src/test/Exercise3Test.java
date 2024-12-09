@@ -12,7 +12,7 @@ public class Exercise3Test {
 	private Exercise3SpecialBreakpoints ex;
 	
 	@BeforeEach
-	private void beforeAll() {
+	void beforeEach() {
 		ex = new Exercise3SpecialBreakpoints();
 	}
 

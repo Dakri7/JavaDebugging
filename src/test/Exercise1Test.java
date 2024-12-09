@@ -15,7 +15,7 @@ class Exercise1Test {
 private Exercise1Step ex;
 	
 	@BeforeEach
-	private void beforeAll() {
+	void beforeEach() {
 		ex = new Exercise1Step();
 	}
 	
