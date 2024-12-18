@@ -9,7 +9,8 @@ public class Exercise0Sysout {
 	 */
 	public int[] rangeArray(int max) {
 		int[] back = new int[max];
-		
+
+		//Fill each element in the array with its index
 		for(int i = 0; i <= max; i++) {
 			back[i] = i;
 		}
